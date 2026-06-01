@@ -15,5 +15,5 @@ A full-stack **Quora-inspired post app** built with Node.js, Express, and EJS â€
 - **Backend:** Node.js, Express.js
 - **Templating:** EJS
 - **Styling:** CSS
-- **Packages:** uuid, method-override
+- **Packages:** uuid, method-override.
 
