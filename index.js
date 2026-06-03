@@ -1,20 +1,8 @@
-// Import the Express framework to create the web server
 const express = require("express");
-
-// Initialize the Express application
 const app = express();
-
-// Define the port number the server will listen on
 const port = 8080;
-
-// Import Node.js built-in path module for handling file/directory paths
 const path = require("path");
-
-// Import uuid library and destructure v4 for generating unique IDs
 const { v4: uuidv4 } = require("uuid");
-
-// Import method-override to support PUT and DELETE from HTML forms
-// (HTML forms only support GET and POST natively)
 const methodOverride = require("method-override");
 
 
